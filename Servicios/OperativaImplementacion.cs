@@ -67,7 +67,7 @@ namespace JalvugoRecuC.Servicios
             int aux=0;
             foreach(PropietarioDto propietario in Program.listaPropietarios)
             {
-                Console.WriteLine(fechaActual.Year - propietario.FechaCompra.Year);
+                //Console.WriteLine(fechaActual.Year - propietario.FechaCompra.Year);
                 if (fechaActual.Year - propietario.FechaCompra.Year > 25)
                 {
 
